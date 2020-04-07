@@ -1,0 +1,83 @@
+body {
+	background-image: url('diamantia.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	text-align: center;
+	margin: 0 auto;
+	zoom:110%;
+	white-space: nowrap;
+	width:100%;
+	height: 100%;
+}
+
+* {
+	color: black; 
+}
+ 
+.grid-container {
+  display: grid;
+  grid-gap: auto;
+  grid-template-columns: auto auto auto;
+  padding: 10%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+}
+
+.grid-item h3 {
+	margin-bottom :0px;
+	margin-top:0px;
+}
+
+span{
+	background-color:rgba(169,186,234,0.8);
+	border-radius: 15px;
+}
+
+#sxolia{
+	background-color: black;
+	margin-left:29%;
+	margin-right:29%;
+}	
+
+.sampania:hover {  
+	outline: solid 3px rgba(169,186,234,0.8);
+	transition: outline 0.2s linear;
+}
+
+# imgbtn{
+	outline: solid 23px rgba(169,186,234,0.8);
+}
+
+.navbar {
+  margin-top:25px;
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.navbar a:hover {
+  background: rgba(169,186,234,0.7);
+  border-radius: 150px;
+  transition: outline 0.2s linear;
+}
+
+.selides a{
+  color: black;
+  text-align: center;
+  padding: 0px 3.2px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.selides a:hover {
+  background: rgba(169,186,234,0.7);
+  border-radius: 150px;
+  transition: outline 0.2s linear;
+}
