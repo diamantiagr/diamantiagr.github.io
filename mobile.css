@@ -1,19 +1,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 1px;
+    margin: 0px;
+    background-image: url('diamantia.png');
+	  background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	background-attachment: fixed;
   }
   
   .mobile-container {
-    /*max-width: 360px;*/
+    /*max-width: 380px;
+    min-height: 1px;*/
     margin: auto;
-    background-color: #555;
-    height: auto;
     color: white;
     border-radius: 10px;
-    background-image: url('diamantia.png');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment: fixed;
   }
   
   .topnav {
